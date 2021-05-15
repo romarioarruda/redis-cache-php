@@ -1,0 +1,12 @@
+{
+    "name": "romarioarruda/redis-cache-php",
+    "description": "Testing cache with redis and php",
+    "require": {
+        "predis/predis": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    }
+}

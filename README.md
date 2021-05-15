@@ -21,7 +21,7 @@ $ docker container run -it --name redis_db -p 6379:6379 -d redis
 
 Install dependencies of PHP
 
-
+```
 $ composer install
 
 $ php -S localhost:8080

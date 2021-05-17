@@ -11,7 +11,9 @@ $ brew services start redis
 
 or
 
-$ sudo service redis-server start
+$ sudo apt-get install redis-tools
+$ sudo apt install redis-server
+$ sudo systemctl start redis
 
 or using docker
 
